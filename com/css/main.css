@@ -1,0 +1,57 @@
+body {
+    background-color: #fcfcfc;   
+}
+
+#tabs-swipe-demo{
+	width: 600px !important;
+}
+#tap1,#tap2 {
+	width: 600px;
+    height: 600px;
+    margin: 0px auto;
+}
+.pagination {
+	display: flex;
+    justify-content: center;
+}
+
+.with-header {
+	width: 600px;
+    margin: 0 auto;
+    height: 600px;
+    overflow-y: scroll;
+}
+.boldText {
+	font-weight: bold;
+}
+ #headerspan1 {
+ 	font-size: 20px;
+ 	color: #2bbbad;
+ }
+ #headerspan2 {
+ 	color:  rgba(43, 187, 173, .7);
+ }
+ #headerspan3 {
+ 	color:  rgba(43, 187, 173, .7);
+ }
+ #viewContainer {
+ 	width: 600px;
+    margin: 0 auto;
+    height: 600px;
+ }
+ #notes {
+ 	width: 600px;
+    margin: 0 auto;
+    height: 600px;
+    background-color: transparent !important;
+    overflow-y: auto;
+ }
+ #backbutton {
+ 	float: right;
+ 	margin-top: 5px;
+ }
+
+ .col.s12.m5 h5 {
+ 	color:rgba(0, 0, 0, .7);
+ }
+
