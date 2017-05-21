@@ -102,7 +102,6 @@ usefullClass.prototype = {
 			this.usefullClass.prototype._alertIds.push(_alerts["alerts"][i].id);
 			//if (this.usefullClass.prototype._alertCreatedTimes.indexOf(new Date(_alerts["alerts"][i].createdAtTimestamp).getDate())==-1)
 			//this.usefullClass.prototype._alertCreatedTimes.push((_alerts["alerts"][i].createdAtTimestamp));
-			this.usefullClass.prototype._alertCreatedTimes.push(new Date(_alerts["alerts"][i].createdAtTimestamp).getDate()-1);
 
 			this.usefullClass.prototype._alertTinyIds.push(_alerts["alerts"][i].tinyId);
 			this.usefullClass.prototype._alertCreatedDates.push(_alerts["alerts"][i].createdAt);
